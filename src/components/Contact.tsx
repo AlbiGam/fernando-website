@@ -1,18 +1,20 @@
 import './Contact.css'
 
 export default function Contact() {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
         <div className="contact-header">
-          <img src="/logo.jpeg" alt="Fernando A. Davila" className="contact-logo" />
+          <img src={`${baseUrl}logo.jpeg`} alt="Fernando A. Davila" className="contact-logo" />
           <h2 className="contact-title">GET IN TOUCH</h2>
           <p className="contact-subtitle">Let's work together</p>
         </div>
         
         <div className="contact-content">
           <div className="contact-image">
-            <img src="/get_in_touch.jpeg" alt="Get in Touch" className="contact-banner" />
+            <img src={`${baseUrl}get_in_touch.jpeg`} alt="Get in Touch" className="contact-banner" />
           </div>
           
           <div className="contact-details">

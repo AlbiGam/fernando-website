@@ -21,6 +21,7 @@ const calendarEvents = [
 ]
 
 export default function Calendar() {
+  const baseUrl = import.meta.env.BASE_URL
   const [isExpanded, setIsExpanded] = useState(false)
   const defaultVisibleEvents = 6
   const hasMoreEvents = calendarEvents.length > defaultVisibleEvents
@@ -36,7 +37,7 @@ export default function Calendar() {
           </div>
           <div className="calendar-hero-image-wrap">
             <img
-              src="/calendar.jpeg"
+              src={`${baseUrl}calendar.jpeg`}
               alt="Fernando racing in kart competition"
               className="calendar-hero-image"
             />

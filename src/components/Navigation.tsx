@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './Navigation.css'
 
 export default function Navigation() {
+  const baseUrl = import.meta.env.BASE_URL
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
@@ -18,7 +19,7 @@ export default function Navigation() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/logo.jpeg" alt="Fernando A. Davila Logo" className="logo-image" />
+          <img src={`${baseUrl}logo.jpeg`} alt="Fernando A. Davila Logo" className="logo-image" />
           <span className="logo-text desktop-only">FERNANDO A. DAVILA</span>
         </div>
 

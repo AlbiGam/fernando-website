@@ -2,13 +2,14 @@ import { useState } from 'react'
 import './About.css'
 
 export default function About() {
+  const baseUrl = import.meta.env.BASE_URL
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
     <section id="about" className="about">
       <div className="about-container">
         <div className="about-image">
-          <img src="/about_me.jpeg" alt="Fernando A. Davila" />
+          <img src={`${baseUrl}about_me.jpeg`} alt="Fernando A. Davila" />
         </div>
         
         <div className="about-content">

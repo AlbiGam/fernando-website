@@ -1,12 +1,14 @@
 import './HeroSection.css'
 
 export default function HeroSection() {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <section className="hero">
       <div className="hero-container">
         <div className="hero-image-container">
           <div className="hero-image">
-            <img src="/main_page.jpeg" alt="Fernando A. Davila" className="hero-img" />
+            <img src={`${baseUrl}main_page.jpeg`} alt="Fernando A. Davila" className="hero-img" />
             <h1 className="hero-overlay-text">DAVILA</h1>
           </div>
         </div>
