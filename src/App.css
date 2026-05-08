@@ -1,0 +1,8 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-light);
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
