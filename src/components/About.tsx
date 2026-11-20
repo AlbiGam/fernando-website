@@ -16,16 +16,25 @@ export default function About() {
           <h2 className="about-title">ABOUT ME</h2>
           <div className={`about-text ${isExpanded ? 'about-text-expanded' : 'about-text-collapsed'}`}>
             <p>
-              My name is Fernando Davila, and I first sat in a kart in September 2024, aged 14. I had never raced before — but the moment I felt the adrenaline rush a kart gives you, I knew this was my passion. I started going every week, and in just my second race I finished 2nd overall, making myself known and a candidate to be champion only in my first year.
+              My name is Fernando Dávila, and my motorsport journey began in September 2024, when I first sat in a kart at just 14 years old. I had never raced before, but from my first experience, I knew I had found my passion. I began practicing every week, and by my second race, I had already finished 2nd overall, quickly establishing myself as a competitive driver with championship potential.
             </p>
             <p>
-              In the winter of 2024, I attended my first owner karting practice — I was completely unexperienced but still managed to be 2 seconds off the best time. I'm confident I had the talent and the passion to win. But at the time, we couldn't afford to race owners every month. So I kept doing practice sessions and making myself known through rental karting.
+              During the winter of 2024, I attended my first owner-karting practice. Despite having very little experience, I finished just two seconds off the fastest lap. Although financial limitations prevented me from competing regularly in owner karting, I continued developing my skills through rental karting and practice sessions, determined to make the most of every opportunity.
             </p>
             <p>
-              In April 2025, everything changed. The only track in Puerto Rico opened up again and I was the first one to be there. I started practicing there every month and eventually was noticed by a team. I talked with them to buy a kart and ended up being one of the official drivers.
+              In April 2025, the only karting track in Puerto Rico reopened, and I was among the first drivers to return. Through consistent practice and dedication, I eventually caught the attention of a racing team and earned the opportunity to become one of its official drivers.
             </p>
             <p>
-              Since then I've raced in 1 season of rental karting, becoming the national champion. This gave me the opportunity to represent my country in the K1 Speed E-World Championship in only my first year of racing. I also have other victories like the 12 Hours of Orlando Kart Center and many race wins in my country. I went from a kid with a dream to a full-blown karting driver in just a year. Now I'm aiming even higher, determined to keep climbing and prove that this is only the beginning of my racing story.
+              Since then, my progress has exceeded what I once imagined. In my first year of competition, I became Puerto Rico's National Rental Karting Champion, earning the opportunity to represent my country at the K1 Speed E-World Championship in Winchester, California. I also became part of the winning team at the 12 Hours of Orlando Kart Center, competing against 60 other teams in a 12-hour endurance race.
+            </p>
+            <p>
+              Today, I continue competing in Puerto Rico, Florida, and the Dominican Republic, accumulating victories and gaining experience against international talent. Most recently, I earned another victory in the T4 Kartplex Championship in Florida. My performance has also opened doors to the next stage of my career, with invitations to begin competing in race cars in both Puerto Rico and the United States.
+            </p>
+            <p>
+              My next goal is to compete in the 2027 championship seasons in Puerto Rico and Florida while pursuing opportunities to test and transition into car racing, including Spec Miata, B-Spec, and STL categories.
+            </p>
+            <p>
+              What began as a first-time experience in a rental kart has developed into a serious commitment to motorsport and a growing competitive career. I am determined to keep improving, represent Puerto Rico at the highest possible level, and build a future in professional racing. <em>This is only the beginning.</em>
             </p>
           </div>
 

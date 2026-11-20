@@ -15,9 +15,15 @@ const calendarEvents = [
   { date: 'APRIL 24', event: 'K1 Speed GP Canovanas', status: 'finished', result: '4TH' },
   { date: 'APRIL 26', event: 'Salinas Practice and Race', status: 'finished', result: '2ND' },
   { date: 'MAY 2', event: 'K1 Speed E-World Championship', status: 'finished', result: '10TH' },
-  { date: 'MAY 14', event: 'K1 Speed GP Caguas', status: 'scheduled' },
-  { date: 'MAY 24', event: 'CKPR Salinas Test & Tune', status: 'scheduled' },
-  { date: 'MAY 30', event: 'K1 Speed GP Canovana', status: 'scheduled' },
+  { date: 'MAY 14', event: 'K1 Speed GP Caguas', status: 'finished', result: '2ND' },
+  { date: 'MAY 24', event: 'CKPR Salinas Test & Tune', status: 'finished', result: '1ST' },
+  { date: 'MAY 30', event: 'K1 Speed GP Canovana', status: 'finished', result: '1ST' },
+  { date: 'JUNE 25', event: 'CKPR Test and Tune', status: 'finished', result: '1ST' },
+  { date: 'JULY 14', event: 'CKPR Test and Tune', status: 'finished', result: '1ST' },
+  { date: 'JULY 31', event: 'T4 Kartplex Championship', status: 'finished', result: '3RD' },
+  { date: 'SEPTEMBER 27', event: 'CKPR Championship', status: 'finished', result: '2ND' },
+  { date: 'OCTOBER 24', event: 'CKPR Championship', status: 'finished', result: '1ST' },
+  { date: 'NOVEMBER 5', event: 'K1 GP Challenge', status: 'finished', result: '1ST' },
 ]
 
 export default function Calendar() {
