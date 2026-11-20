@@ -46,8 +46,8 @@ export default function Partners() {
 
           <div className="partners-hero-image-wrap">
             <img
-              src={`${baseUrl}calendar.jpeg`}
-              alt="Fernando racing with team support"
+              src={`${baseUrl}partners.jpeg`}
+              alt="Fernando racing kart number 525 on track"
               className="partners-hero-image"
             />
           </div>

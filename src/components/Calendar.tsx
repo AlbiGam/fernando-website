@@ -43,8 +43,8 @@ export default function Calendar() {
           </div>
           <div className="calendar-hero-image-wrap">
             <img
-              src={`${baseUrl}calendar.jpeg`}
-              alt="Fernando racing in kart competition"
+              src={`${baseUrl}calendar-2026.jpeg`}
+              alt="Fernando leading a group of karts in kart number 525"
               className="calendar-hero-image"
             />
           </div>
